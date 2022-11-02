@@ -1,0 +1,35 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "ぼっとにゃ！",
+  "main": "none",
+  "repository": "git@github.com:ccmiko/my-discord-bot.git",
+  "author": "ccmiko",
+  "license": "NONE",
+  "private": true,
+  "scripts": {
+    "node:dev": "nodemon node_modules/.bin/ts-node -r tsconfig-paths/register",
+    "node": "node node_modules/.bin/ts-node -r tsconfig-paths/register",
+    "run:example": "yarn node:dev ./example/",
+    "run:register:commands": "yarn node:dev ./noja_loli/registerCommands.ts",
+    "run:bot:start": "yarn node:dev ./noja_loli/",
+    "run:1": "yarn node:dev ./noja_loli/1.ts",
+    "run:2": "yarn node:dev ./noja_loli/2.ts",
+    "run:3": "yarn node:dev ./noja_loli/3.ts",
+    "run:4": "yarn node:dev ./noja_loli/4.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "pino": "^8.7.0",
+    "uuid": "^9.0.0"
+  }
+}

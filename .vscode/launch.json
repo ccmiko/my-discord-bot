@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "yarn run:1",
+      "name": "yarn run:1",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn run:2",
+      "name": "yarn run:2",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn run:3",
+      "name": "yarn run:3",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "command": "yarn run:4",
+      "name": "yarn run:4",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
